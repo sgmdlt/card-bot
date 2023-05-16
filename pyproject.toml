@@ -9,7 +9,7 @@ packages = [{ include = "card-bot" },]
 python = ">=3.10.0,<3.11"
 telebot = "^0.0.5"
 
-tool.poetry.scripts]
+[tool.poetry.scripts]
 card-bot = 'card-bot.main:main'
 
 [build-system]
